@@ -1,5 +1,5 @@
 #include <windows.h>
 
 int main() {
-    MessageBox(NULL, "Hello, world!", NULL, MB_RETRYCANCEL);
+    MessageBox(NULL, "Error test", NULL, MB_RETRYCANCEL | MB_ICONERROR);
 }

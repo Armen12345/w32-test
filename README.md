@@ -4,6 +4,7 @@ Test code samples written in C/C++ using Windows APIs.
 | Name | Functionality | WINE compatibility | ReactOS compatibility |
 | :--- | :--- | :---: | :---: |
 | `messagebox_helloworld.c` (`messagebox_helloworld.exe`) | Creates a simple message box via [MessageBox](https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-messagebox) function | ✅ | ✅ |
+| `messagebox_error.c` (`messagebox_error.exe`) | Creates a simple message box via [MessageBox](https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-messagebox) function. Sets LPCTSTR lpCaption to `NULL` which causes the "Error" title | ✅ | ✅ |
 
 # What can I use it for?
 This is not a standalone production software. These samples are created for testing and troubleshooting Win32/NT-like environments, as well as practicing and learning Windows API usage.
